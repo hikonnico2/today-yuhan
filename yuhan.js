@@ -28,7 +28,17 @@ myTable = new Array(	// リンク先の登録
 "https://pizzahut.jp/pc/pizza/W000003010-002",
 "https://pizzahut.jp/pc/pizza/W000002378-002",
 "https://pizzahut.jp/pc/pizza/W000002680-002",
-"https://pizzahut.jp/pc/pizza/W000001118-002" // ピザハットここまで
+"https://pizzahut.jp/pc/pizza/W000001118-002", // ピザハットここまで
+"http://www.kfc.co.jp/menu/delivery/?menu_id=314", // ケンタッキー
+"http://www.kfc.co.jp/menu/delivery/?menu_id=317",
+"http://www.kfc.co.jp/menu/delivery/?menu_id=271",
+"http://www.kfc.co.jp/menu/delivery/?menu_id=146", //ケンタッキーここまで
+"https://www.ginsara.jp/menu/gin-3_1_detail.html", // 銀のさら
+"https://www.ginsara.jp/menu/odori-3_1_detail.html",
+"https://www.ginsara.jp/menu/mino-3_1_detail.html",
+"https://www.ginsara.jp/menu/mizuho-3_1_detail.html",
+"https://www.ginsara.jp/menu/kaga-3_1_detail.html",
+"https://www.ginsara.jp/menu/sagami-3_1_detail.html" // 銀のさらここまで
 );	
 function myRndLink(){	// 適当に選んでリンクする関数
      myRnd = Math.floor( Math.random() * myTable.length );	// 0～(URLの数-1)の乱数を求める
